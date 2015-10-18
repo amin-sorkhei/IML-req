@@ -38,5 +38,3 @@ def visualize(image):
     ax.yaxis.set_ticks_position('left')
     plt.show()
 
-if __name__ == '__main__':
-    data = read_mnist_training_data()
