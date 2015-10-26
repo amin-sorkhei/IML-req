@@ -12,7 +12,7 @@ ratings, items_dictionary, user_ids, item_ids = reader.read_movie_lens_data()
 
 def my_info():
     """
-    :return: DO NOT FORGET to include your student number as a string, this function is used fto evaluate your code and results
+    :return: DO NOT FORGET to include your student number as a string, this function is used to evaluate your code and results
     """
     return student_number
 
