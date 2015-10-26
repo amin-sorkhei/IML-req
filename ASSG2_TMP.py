@@ -6,7 +6,7 @@ import movielens_import_package as reader
 DO NOT FORGET TO INCLUDE YOUR STUDENT NUMBER
 ============================================
 """
-student_number = '14579890'
+student_number = ''
 
 ratings, items_dictionary, user_ids, item_ids = reader.read_movie_lens_data()
 
