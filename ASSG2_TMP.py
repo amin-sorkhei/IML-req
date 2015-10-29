@@ -10,7 +10,7 @@ student_number = ''
 
 
 "load the data into python"
-ratings, items_dictionary, user_ids, item_ids = reader.read_movie_lens_data()
+ratings, movie_dictionary, user_ids, item_ids, movie_names = reader.read_movie_lens_data()
 
 def my_info():
     """
