@@ -42,7 +42,7 @@ def main():
     DO NOT TOUCH THIS FUNCTION. IT IS USED FOR COMPUTER EVALUATION OF YOUR CODE
     """
     test_cases = ast.literal_eval(sys.argv[1])
-    results = my_info() + '\t\t'
+    results = str(my_info()) + '\t\t'
     for test_case in test_cases:
         mode = test_case[0]
         id_1 = int(test_case[1])
