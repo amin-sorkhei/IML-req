@@ -1,5 +1,5 @@
 import sys, ast
-import movielens_import_package as reader
+import loadmovielens as reader
 
 """
 ============================================
