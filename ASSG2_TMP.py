@@ -3,10 +3,10 @@ import loadmovielens as reader
 
 """
 ============================================
-DO NOT FORGET TO INCLUDE YOUR STUDENT NUMBER
+DO NOT FORGET TO INCLUDE YOUR STUDENT ID
 ============================================
 """
-student_number = ''
+student_ID = ''
 
 
 "load the data into python"
@@ -14,9 +14,9 @@ ratings, movie_dictionary, user_ids, item_ids, movie_names = reader.read_movie_l
 
 def my_info():
     """
-    :return: DO NOT FORGET to include your student number as a string, this function is used to evaluate your code and results
+    :return: DO NOT FORGET to include your student ID as a string, this function is used to evaluate your code and results
     """
-    return student_number
+    return student_ID
 
 
 def Jaccard_Coefficient(movie_id_1, movie_id_2):
