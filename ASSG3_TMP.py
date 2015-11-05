@@ -8,10 +8,10 @@ from scipy.spatial.distance import cdist
 
 """
 ============================================
-DO NOT FORGET TO INCLUDE YOUR STUDENT NUMBER
+DO NOT FORGET TO INCLUDE YOUR STUDENT ID
 ============================================
 """
-student_number = ''
+student_ID = ''
 
 
 X, y = mnist.read_mnist_training_data()
@@ -19,9 +19,9 @@ X, y = mnist.read_mnist_training_data()
 
 def my_info():
     """
-    :return: DO NOT FORGET to include your student number as a string, this function is used to evaluate your code and results
+    :return: DO NOT FORGET to include your student ID as a string, this function is used to evaluate your code and results
     """
-    return student_number
+    return student_ID
 
 
 def KNN():
