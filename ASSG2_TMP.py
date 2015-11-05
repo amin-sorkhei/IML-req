@@ -1,20 +1,22 @@
 import sys, ast
-import movielens_import_package as reader
+import loadmovielens as reader
 
 """
 ============================================
-DO NOT FORGET TO INCLUDE YOUR STUDENT NUMBER
+DO NOT FORGET TO INCLUDE YOUR STUDENT ID
 ============================================
 """
-student_number = ''
+student_ID = ''
 
-ratings, items_dictionary, user_ids, item_ids = reader.read_movie_lens_data()
+
+"load the data into python"
+ratings, movie_dictionary, user_ids, item_ids, movie_names = reader.read_movie_lens_data()
 
 def my_info():
     """
-    :return: DO NOT FORGET to include your student number as a string, this function is used to evaluate your code and results
+    :return: DO NOT FORGET to include your student ID as a string, this function is used to evaluate your code and results
     """
-    return student_number
+    return student_ID
 
 
 def Jaccard_Coefficient(movie_id_1, movie_id_2):
@@ -42,7 +44,7 @@ def main():
     DO NOT TOUCH THIS FUNCTION. IT IS USED FOR COMPUTER EVALUATION OF YOUR CODE
     """
     test_cases = ast.literal_eval(sys.argv[1])
-    results = my_info() + '\t\t'
+    results = str(my_info()) + '\t\t'
     for test_case in test_cases:
         mode = test_case[0]
         id_1 = int(test_case[1])
