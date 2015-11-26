@@ -11,10 +11,14 @@ from sklearn.metrics import confusion_matrix
 
 """
 ============================================
-DO NOT FORGET TO INCLUDE YOUR STUDENT NUMBER
+DO NOT FORGET TO INCLUDE YOUR STUDENT ID
 ============================================
 """
+<<<<<<< HEAD
 student_number = 'sample_solution'
+=======
+student_ID = ''
+>>>>>>> 622382c2ed459a743b28d10dffc1e837df0911a1
 
 
 X, y = mnist.read_mnist_training_data(N=5000)
@@ -46,9 +50,9 @@ def sanity_check():
 
 def my_info():
     """
-    :return: DO NOT FORGET to include your student number as a string, this function is used to evaluate your code and results
+    :return: DO NOT FORGET to include your student ID as a string, this function is used to evaluate your code and results
     """
-    return student_number
+    return student_ID
 
 
 def simple_EC_classifier():
